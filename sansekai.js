@@ -72,11 +72,11 @@ module.exports = sansekai = async (client, m, chatUpdate) => {
     if (isCmd2) {
       switch (command) {
         case "help": case "menu": case "start": case "info":
-          m.reply(`*Whatsapp Bot OpenAI*
+          m.reply(`*Whatsapp HimaruAi*
             
 *(ChatGPT)*
 Cmd: ${prefix}ai 
-Tanyakan apa saja kepada AI. 
+Tanyakan apa saja kepada HimaruAi. 
 
 *(DALL-E)*
 Cmd: ${prefix}img
